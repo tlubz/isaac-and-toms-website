@@ -21,6 +21,9 @@ pickle-email-*.html
 config/initializers/secret_token.rb
 config/master.key
 
+
+.idea
+
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
 
@@ -65,3 +68,13 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
